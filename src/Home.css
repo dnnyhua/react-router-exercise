@@ -1,0 +1,31 @@
+.homepage {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerMessage {
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(138, 212, 255, 0.8);
+}
+
+.centerMessage a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.centerMessage a:hover {
+    text-decoration: underline;
+    color: white;
+}
